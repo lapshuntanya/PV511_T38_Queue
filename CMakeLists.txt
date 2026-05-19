@@ -3,4 +3,5 @@ project(PV511_T38_Queue)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(PV511_T38_Queue main.cpp)
+add_executable(PV511_T38_Queue main.cpp
+        Queue.h)
